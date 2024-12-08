@@ -1,0 +1,100 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body and Container Styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #86c9f8;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form Heading */
+  .form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for input fields */
+  .box, .quantity, .prescription {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: border-color 0.3s;
+  }
+  
+  .box:focus, .quantity:focus, .prescription:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Message Styling */
+  .message {
+    display: inline-block;
+    padding: 10px;
+    color: #333;
+    background-color: #e2f0d9;
+    border-left: 5px solid #86c9f8;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #86c9f8;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #0494fa;
+  }
+  
+  /* File input field specific styling */
+  input[type="file"].box {
+    padding: 8px;
+    background-color: #ffffff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 500px) {
+    .container {
+        padding: 15px;
+    }
+    .form h3 {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+  }

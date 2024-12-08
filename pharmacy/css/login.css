@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+  background-image: url('Homew.jpg'); /* Ensure the path is correct */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container to center the title and form */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Title styles */
+.title {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Login box styles */
+.Login {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  max-width: 450px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input field styles */
+.usernametb, .passtb {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  background: transparent;
+}
+
+/* Login button styles */
+.loginbt {
+  font-size: 1.1rem;
+  padding: 10px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: #94bbe9;
+  color: white;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.loginbt:hover {
+  background: #86c9f8;
+}
+
+/* Error message styles */
+.error-msg {
+  color: #A94442;
+  background-color: #F2DEDE;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: block;
+  border-radius: 5px;
+}
+
+/* 'Or' text styles */
+.or {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  text-align: center;
+}
+
+/* Signup button styles */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupbtn {
+  border-radius: 5px;
+  background: #94bbe9;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.signupbtn:hover {
+  background: #86c9f8;
+  cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .Login {
+      padding: 1rem;
+      width: 90%;
+  }
+
+  .title {
+      font-size: 2rem;
+  }
+}

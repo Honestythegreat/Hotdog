@@ -1,0 +1,152 @@
+/* Global styles */
+body {
+    background-image: url('Homew.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container to center the title and form */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 450px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styles */
+.title {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Login box styles */
+.register {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 450px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input field styles */
+.usertb {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+.Cpasstb{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+.numbertb{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+.emailtb{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+.passtb{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+
+/* Login button styles */
+.regbtn {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: #94bbe9;
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.regbtn:hover {
+    background: #86c9f8;
+}
+
+/* Error message styles */
+.error-msg {
+    color: #A94442;
+    background-color: #F2DEDE;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+.signupbtn {
+    border-radius: 5px;
+    background: #94bbe9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.signupbtn:hover {
+    background: #86c9f8;
+    cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .Login {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
